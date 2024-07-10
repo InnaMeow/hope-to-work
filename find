@@ -1,0 +1,9 @@
+# Function to calculate square of a number representing a planet
+def calculate_planet_square(number):
+    square = number ** 2
+    return square
+
+# Main code
+planet_number = 5 # Assuming 5 represents a planet
+planet_square = calculate_planet_square(planet_number)
+print("Square of the planet number is:", planet_square)
